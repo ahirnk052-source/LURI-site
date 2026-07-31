@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery - Lokbharti University</title>
+    <link rel="icon" type="image" href="android-chrome-512x512.png">
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #eee;
+        }
+
+        header {
+            background-color: #7b5a5a;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            font-family: Papyrus;
+        }
+
+        nav {
+            background: #ccc;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            margin: 15px;
+            text-decoration: none;
+            color: black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        nav a:hover {
+            color: brown;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card p {
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        .hide {
+            display: none;
+        }
+
+        footer {
+            background: darkred;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+        h1 {
+            text-shadow: 3px 3px 4px #000000;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <img style="float: left; width: 130px;height: 130px;" src="staff.html/LURI-logo-color-changed-copy.png">
+    <h1>Lokbharti University For Rural Innovation</h1>
+    <p style="font-family: Lucida Handwriting;"><big><b>Solve To Serve</b></big></p>
+</header>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="courses.html">Courses</a>
+    <a href="Administration.html">Administration</a>
+    <a href="UniStaff.html">Staff Courner</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="addmition.html">Addmition Form</a>
+    <a href="contact.html">Contact</a>
+</nav>
+<section>
+<div class="gallery">
+
+    <div class="card campus">
+        <img src="staff.html/campview.jpg">
+        <p><big>Campus</big></p>
+    </div>
+
+    <div class="card events">
+        <img src="staff.html/dhyanmantra.jpeg">
+        <p><big>Dhyanmantra Circle</big></p>
+    </div>
+
+    <div class="card students">
+        <img src="staff.html/fullview.png">
+        <p><big>Full View</big></p>
+    </div>
+
+    <div class="card students">
+        <img src="staff.html/rushikunj.avif">
+        <p><big>Rushi Kunj</big></p>
+    </div>
+    <div class="card students">
+        <img src="staff.html/esembly.webp">
+        <p><big>Esembly Hall</big></p>
+    </div>
+
+    <div class="card events">
+        <img src="staff.html/hall.jpg">
+        <p><big>Seminar Hall</big></p>
+    </div>
+
+    <div class="card students">
+        <img src="staff.html/acadamic.webp">
+        <p><big>Acadamic Building</big></p>
+    </div>
+
+    <div class="card students">
+        <img src="staff.html/conference.jpg">
+        <p><big>Conference Room</big></p>
+    </div>
+    
+</section>
+    
+
+
+<footer>
+    © Lokbharti University
+</footer>
+
+</body>
+</html>
